@@ -135,8 +135,11 @@ body {
 .gallery-item {
   position: absolute;
   max-width: 440px;
+  width: 100%;
   max-height: 440px;
-  object-fit: cover;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding: 0.5em;
 }
 
@@ -365,6 +368,4 @@ input[type=submit] {
   .picture {
     width: 80%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
