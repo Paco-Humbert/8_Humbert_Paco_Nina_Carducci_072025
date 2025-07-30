@@ -136,8 +136,7 @@ body {
   position: absolute;
   max-width: 440px;
   max-height: 440px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   padding: 0.5em;
 }
 
@@ -366,4 +365,6 @@ input[type=submit] {
   .picture {
     width: 80%;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
